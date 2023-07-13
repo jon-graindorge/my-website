@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap'); 
+:root { 
+    --white: #FFFFFF;
+    --background2: #181F1C; 
+    --important: #0B327D;
+    --black: #000000;
+
+    --h1Size: 96px; 
+    --h2Size: 64px; 
+    --h3Size: 40px;
+    --h4Size: 24px;
+    --h5Size: 20px;
+    --h6Size: 16px;
+    --pSize: 10px;
+}
+h1{ 
+    font-size: var(--h1Size);
+    font-family: "Fira Sans";
+}
+h2{ 
+    font-size: var(--h2Size);
+    font-family: "Fira Sans";
+}
+h3{ 
+    font-size: var(--h3Size);
+    font-family: "Fira Sans";
+}
+h4{ 
+    font-size: var(--h4Size);
+    font-family: "Fira Sans";
+}
+h5{ 
+    font-size: var(--h5Size);
+    font-family: "Fira Sans";
+    font-style: italic;
+}
+h6{ 
+    font-size: var(--h6Size);
+    font-family: "Fira Sans";
+}
+p{ 
+    font-size: var(--pSize);
+    font-family: "Fira Sans";
+}
+body{ 
+    font-family: 'Fira Sans';
+    margin:0;
+    
+}
+ * {
+    border: 1px solid red;
+} 
+ul { 
+    display: flex;
+    justify-content: center;
+    gap: 150px; 
+    align-items: center;
+   
+}
+header{ 
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    position: sticky;
+    top:0;
+    background-color: var(--white);
+}
+li{
+    list-style: none;
+}
+a{ 
+    font-size: var(--h4Size);
+    color: var(--black);
+    text-decoration: none;
+
+}
+.contact-me-btn { 
+    display: flex;
+    width: 150px;
+    height: 25px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px; 
+    background: var(--important);
+    color: var(--white);
+}
+#home {
+    background-image: url("images/IMG_0020[1] 1.png");
+    height: 901px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+#home h2{ 
+    margin-bottom: 300px;
+}
+#About-me h2{ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: var(--important);
+}
+#inside{ 
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#column-1{ 
+    display: grid; 
+    margin: 15px;
+    padding-right: 132px;
+}
+#column-2{ 
+    display:grid;
+    padding-right: 132px;
+    display: flex;
+    width: 410px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    
+}
+#Rugby{ 
+    padding-right: 80px;
+    padding-left: 80px;
+    color: var(--white);
+    background-color: var(--background2);
+}
+#Thailand-Logo{ 
+    margin-right: 21px;
+    margin-bottom: 41.6px;
+}
+#catch{ 
+    margin-right: 21px;
+    margin-bottom: 41.6px;
+}
+#tackling{ 
+    margin-right: 21px;
+    margin-bottom: 41.6px;
+}
+#kicking{ 
+    margin-bottom: 41.6px;
+}
+#Rugby h5{ 
+    margin-bottom: 41.6px;
+    text-align: center;
+}
+#Rugby h2{ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+#teampic{ 
+    display:flex;
+    justify-content: center;
+}
+#Gym h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: var(--important);
+}
+#Gym{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#all{ 
+    display: flex;
+    justify-content: center;
+}
+#middle{ 
+    display:grid; 
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#Bike{ 
+    padding-right: 80px;
+    padding-left: 80px;
+    color: var(--white);
+    background-color: var(--background2);
+}
+#Bike h2{ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+#top-row{ 
+    display: flex;
+    justify-content: center;
+}
+#dreambike{ 
+    display: grid;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+#vest{ 
+    margin-right: 24px; 
+}
+#Bike h5{ 
+    text-align: center;
+}
+#hypermotard{ 
+    margin-bottom: 20px;
+}
+#mine{ 
+    display:flex;
+}
+#Education h2{ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: var(--important)
+}
+#row-1{ 
+    display: flex; 
+    justify-content: center;
+}
+#LFIB{ 
+    padding-right: 329px;
+}
+#Education{ 
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#Education h5{ 
+    text-align: center;
+}
+#row-2{
+    display:flex;
+    justify-content: center;
+}
+#entrance{
+    margin-right: 24px;
+}
+#Contact-me {
+    background-image: url("images/Group 15.png");
+    height: 1039px;
+    background-size: cover;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Contact-me h2{ 
+    display: flex;
+    justify-content: center;
+}
+#phone{ 
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+}
+#mail{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#snap{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#insta{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.input-span6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-span12 {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+}
+form button { 
+    display: flex;
+    width: 150px;
+    height: 25px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px; 
+    background: var(--important);
+    color: var(--white);
+}
