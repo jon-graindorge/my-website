@@ -47,9 +47,9 @@ body{
     margin:0;
     
 }
- * {
+ */* {
     border: 1px solid red;
-} 
+} */
 ul { 
     display: flex;
     justify-content: center;
